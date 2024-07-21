@@ -1,5 +1,5 @@
 const { query } = require('express');
-const dataModel = require('../model/Data')
+const dataModel = require('../model/data')
 const asyncHandeler = require('express-async-handler');
 const { default: mongoose } = require('mongoose');
 
